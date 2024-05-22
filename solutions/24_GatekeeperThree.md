@@ -103,7 +103,7 @@ Bu soruda geçmeniz gereken üç farklı kapı vardır.
 Bu  soruyu çözmek için önce gate kontraktındaki `createTrick` fonksiyonunu çağırmamız gereklidir:
 ```javascript
 > await contract.createTrick()
-> 
+
 > let trick_addr = await contract.trick()
 // '0xD4Fb426cB28AE9B79322e1AC72Ee1f969C2CCBbf'
 ```
