@@ -1,5 +1,5 @@
 
-# ETHERNAUT SORU 24: PUZZLE WALLET
+# ETHERNAUT SORU 28: GATEKEEPER THREE
 
 >Nowadays, paying for DeFi operations is impossible, fact.
 >
